@@ -1,0 +1,60 @@
+.index .navTitle{
+    height: 1.68rem;
+    width: 100%;
+    background: #d43c33;
+    color: #fff;
+    line-height: 1.68rem;
+    padding:0px 10px;
+    font: 26px/1.5 Helvetica,sans-serif,STHeiTi;
+    
+    /* padding-bottom: 84px; */
+    position: relative;
+}
+.index .navTitle .img {
+position: absolute;
+top: 0.55rem;
+}
+.index .navTitle .p {
+  position: absolute;
+  top: 0.55rem;
+  left: 0.8rem;
+}
+.index .navTitle .load {
+  display: inline-block;
+  position: absolute;
+  top: 0.55rem;
+  right: 30px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  width: 100px;
+text-align: center;
+color: #d43c33;
+background-color: #fff;
+border-radius: 37.5%/100%;
+}
+.index .navBar{
+  background-color: #fff;
+    height: 0.8rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.8rem;
+    display: flex;
+}
+.navBar a{
+    flex:1;
+    text-align: center;
+    color: #333;
+    font-size: 17px;
+}
+.index .active{
+    border-bottom:2px solid  #DD001B;
+}
+.fix {
+  width: 100%;
+  position: fixed; 
+  left: 0;
+  /* top: 2.48rem; */
+   top: 0;
+   z-index: 100;
+   /* margin-bottom: 2.48rem; */
+}

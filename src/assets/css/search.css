@@ -1,0 +1,117 @@
+/* 搜索框 */
+.search .find{
+    padding: .3rem 0;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    margin-top: 2.48rem;
+}
+.search .find>input{
+    width: 80%;
+    height: .6rem;
+    padding: 0 .6rem;
+    background-color: #eee;
+    border-radius: .3rem;
+}
+.search .find .sea{
+    position: absolute;
+    top: .47rem;
+    left: .35rem;
+    width: .26rem;
+    height: .26rem;
+    background: url(../img/searchIcon.png) no-repeat;
+    background-size: .26rem .26rem;
+}
+.search .find em{
+    position: absolute;
+    top: .45rem;
+    right: .35rem;
+    width: .28rem;
+    height: .28rem;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: #fff;
+}
+.hid{
+    display: none;
+}
+.show{
+    display: block;
+}
+/* 热门搜索 */
+.hotSearch_show{
+    padding: 15px 10px 0;
+    display: block;
+}
+.hotSearch_hid{
+    display: none;
+}
+.hotSearch_show>h3{
+    font-size: 12px;
+    line-height: 12px;
+    color: #666;
+}
+.hotSearch_show ul{
+    margin: .2rem 0 .14rem;
+}
+.hotSearch_show li{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+    height: .6rem;
+    margin-right: .16rem;
+    margin-bottom: .16rem;
+    padding: 0 .28rem;
+    font-size: .25rem;
+    line-height: .64rem;
+    color: #333;
+}
+/*  */
+.keyWord_show{
+    display: block;
+}
+.keyWord_hid{
+    display: none;
+}
+.keyWord_show>h3{
+    height: 50px;
+    margin-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    line-height: 50px;
+    color: #507daf;
+    border-bottom: 1px solid #eee;
+}
+.keyWord_show .songList li{
+    height: .9rem;
+    margin-left: .5rem;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.keyWord_show .songList li span{
+    margin-left: .15rem;
+    font-size: .3rem;
+    line-height: .9rem;
+    color: #333;    
+}
+.keyWord_show .songList li i{
+    position: absolute;
+    top: .3rem;
+    left: -.3rem;
+    width: .26rem;
+    height: .26rem;
+    background: url(../img/searchIcon.png) no-repeat;
+    background-size: .26rem .26rem;
+}
+.songList li{
+    height: 1rem;
+    line-height:1rem;
+    border-bottom: 1px dashed #ccc;
+    font-size: 15px;
+    color: #333;
+}
+.inp{
+    font-size: 15px;
+    color: #333;
+}
